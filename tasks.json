@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "mvn compile"
+        },
+        {
+            "label": "run",
+            "type": "shell",
+            "command": "mvn exec:java -Dexec.mainClass=com.example.WhatsAppStatusViewer"
+        }
+    ]
+}
